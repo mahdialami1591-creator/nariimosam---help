@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090b16" />
+    <meta
+      name="description"
+      content="پاسخ سریع به پرسش‌های خرید نقدی و قسطی اکانت از فروشگاه نریموسام"
+    />
+    <title>راهنمای خرید از نریموسام</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-glow page-glow--one" aria-hidden="true"></div>
+    <div class="page-glow page-glow--two" aria-hidden="true"></div>
+
+    <main class="app-shell">
+      <section class="chat-card" aria-label="پاسخ‌گوی قوانین فروشگاه نریموسام">
+        <header class="chat-header">
+          <div class="brand-mark" aria-hidden="true">N</div>
+          <div class="brand-copy">
+            <div class="brand-line">
+              <h1>نریموسام</h1>
+              <span class="verified" title="فروشنده رسمی" aria-label="فروشنده رسمی">✓</span>
+            </div>
+            <p><span class="online-dot" aria-hidden="true"></span> پاسخ‌گوی قوانین خرید</p>
+          </div>
+          <button class="reset-button" id="resetChat" type="button" aria-label="شروع دوباره گفتگو" title="شروع دوباره">
+            ↻
+          </button>
+        </header>
+
+        <div class="notice-bar">
+          فقط از طریق آیدی روبیکا <bdi>@nariimosam</bdi> و شماره رسمی فروشگاه اقدام کنید
+        </div>
+
+        <div class="messages" id="messages" aria-live="polite">
+          <div class="message-row message-row--bot">
+            <div class="avatar" aria-hidden="true">N</div>
+            <div class="message message--bot">
+              <p>سلام رفیق، به نریموسام خوش اومدی ♥️</p>
+              <p>برای دیدن پاسخ، یکی از سؤال‌های پایین رو انتخاب کن.</p>
+              <time>پاسخ‌گویی سریع</time>
+            </div>
+          </div>
+        </div>
+
+        <div class="question-panel" id="questionPanel">
+          <div class="panel-heading">
+            <span>سؤال‌های پرتکرار</span>
+            <small>روی یک سؤال بزن</small>
+          </div>
+          <div class="question-grid" id="questionGrid"></div>
+        </div>
+
+        <footer class="contact-bar">
+          <a class="contact-link contact-link--primary" href="https://rubika.ir/nariimosam" target="_blank" rel="noopener noreferrer">
+            <span aria-hidden="true">✦</span>
+            پیام در روبیکا
+          </a>
+          <a class="contact-link" href="tel:09991871712">
+            <span aria-hidden="true">☎</span>
+            ۰۹۹۹۱۸۷۱۷۱۲
+          </a>
+        </footer>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
